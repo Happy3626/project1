@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>applicantion form </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(211, 211, 211);
+            /* display: flex;
+            justify-content: center; */
+        }
+
+        .form-container {
+            max-width: 600px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px gray;
+            margin: auto;
+            margin-top: 50px;
+            padding: 20px;
+
+        }
+
+        .bigBox {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(auto,minmax(200px,1fr));
+            grid-gap: 50px;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+        label {
+            font-size: rem;
+        }
+
+        input {
+            height: 30px;
+            width: 100%;
+        }
+
+        select {
+            height: 30px;
+            width: 100%;
+        }
+
+        .address {
+            grid-column: 1/3;
+        }
+        textarea{
+            width: 100%;
+        }
+
+        footer {
+            padding-right: 30px;
+            text-align: end;
+        }
+
+        button {
+            text-decoration: none;
+            color: white;
+            background-color: red;
+            padding: 2px;
+            font-size: larger;
+            border: 1px solid red;
+            border-radius: 3px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <form action="job form">
+            <p>Job application (Web)</p>
+            <div class="bigBox">
+
+
+
+
+                <div class="first_name">
+                    <label for="Fname">First name :</label>
+                    <input type="text" id="Fname" placeholder="Enter First Name">
+                </div>
+
+
+                <div class="last_name">
+                    <label for="lname">Last Name :</label>
+                    <input type="text" id="lname" placeholder="Enter Last Name">
+                </div>
+
+
+                <div class="eamil" class="kk">
+                    <label for="eamil">Email :</label>
+                    <input type="email" name="" id="eamil">
+                </div>
+
+
+                <div class="jobRole">
+                    <label for="JobRole">Job role :</label>
+                    <select name="" id="JobRole">
+                        <option value="">select</option>
+                        <option value="">webdev</option>
+                        <option value="">data scince</option>
+                        <option value="">blockchain</option>
+                    </select>
+                </div>
+
+
+                <div class="address">
+                    <label for="ADDRESS">Address :</label>
+                    <textarea name="" id="ADDRESS" cols="80" rows="5"></textarea>
+                </div>
+
+
+                <div class="city">
+                    <label for="CITY">City :</label>
+                    <input type="text" id="CITY">
+                </div>
+
+
+                <div class="pincode">
+                    <label for="Pinc">Pincode :</label>
+                    <input type="number" id="Pinc">
+                </div>
+
+
+                <div class="date">
+                    <label for="DD">Date :</label>
+                    <input type="date" name="" id="DD">
+                </div>
+
+
+                <div class="cv">
+                    <label for="CV">Upload cv :</label>
+                    <input type="file" name="" id="CV">
+                </div>
+            </div>
+        </form>
+        <footer>
+
+            <button type="submit">Apply</button>
+        </footer>
+    </div>
+</body>
+
+</html>

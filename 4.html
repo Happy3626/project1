@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            height: 100vh;
+            background-image: url(/html/image/work.jpg);
+            background-size: cover;
+            position: relative;
+        }
+
+        .main-para1,
+        .main-para2 {
+            background-color: rgb(255, 255, 255, .7);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            margin-bottom: 50px;
+            font-size: 3rem;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .main-para1 {
+            position: absolute;
+            top: 15%;
+            text-align: center;
+        }
+
+        .main-para2 {
+            position: absolute;
+            top: 35%;
+        }
+
+        .talk {
+            background-color: #0f1111;
+            color: white;
+            text-align: center;
+            font-size: 4rem;
+        }
+
+        strong {
+            font-size: 150%;
+            font-weight: 200;
+        }
+
+        .power {
+            height: auto;
+            width: 100vw;
+            padding: 50px;
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .same {
+            min-height: 50vh;
+            width: 300px;
+            margin: 0 10px;
+            overflow: auto;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid grey;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px;
+            transition: all .3s ease-in 1ms;
+        }
+        .same:hover{
+            scale: 1.03;
+        }
+        .image {
+            height: 40%;
+            background-image: url(/html/image/forest.jpg);
+            background-size: cover;
+        }
+
+        .head {
+            height: auto;
+            width: auto;
+            padding-top: 20px;
+            padding-left: 15px;
+            /* overflow: auto; */
+        }
+
+        .same p {
+            color: #181d1d;
+        }
+
+        footer {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .foot1,
+        .foot2 {
+            width: 50vw;
+            padding: 30px;
+            /* font-size: small; */
+        }
+
+        .foot1 {
+            background-color: rgb(62, 90, 189);
+            color: whitesmoke;
+        }
+
+        .foot2 {
+            background-color: rgb(197, 32, 32);
+            color: whitesmoke;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: small;
+            color: whitesmoke;
+        }
+
+        .foot3 {
+            height: auto;
+            background-color: #0f1111;
+            color: white;
+            font-size: larger;
+            text-align: center;
+            grid-column: 1/3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <p class="main-para1">Hi, I am a Developer</p>
+        <p class="main-para2">I will help u with my best</p>
+    </div>
+
+    <div class="talk">
+        <p>Work I can do for <strong>You</strong> </p>
+    </div>
+
+    <div class="power">
+
+        <div class="same">
+            <div class="image"></div>
+            <div class="head">
+                <h2>Web developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ! <br> <br>Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Dignissimos nulla laboriosam numquam quasi, autem nobis error rerum
+                    aut aperiam vero?</p>
+            </div>
+        </div>
+
+
+        <div class="same">
+            <div class="image"></div>
+            <div class="head">
+                <h2>App development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ! <br> <br>Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Dignissimos nulla laboriosam numquam quasi, autem nobis error rerum
+                    aut aperiam vero?</p>
+            </div>
+        </div>
+
+
+        <div class="same">
+            <div class="image"></div>
+            <div class="head">
+                <h2>UI / UXI</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ! <br> <br>Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Dignissimos nulla laboriosam numquam quasi, autem nobis error rerum
+                    aut aperiam vero?</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="foot1">
+            <h2>Contact me</h2>
+            <p><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore cum rem veritatis ut, expedita aut.
+                <br><br>
+            </p>
+            <a href="#">happyrao3626@gmail.com</a>
+        </div>
+        <div class="foot2">
+            <h2>About ME</h2>
+            <p><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, est. Eos labore veniam laboriosam
+                beatae, quibusdam quam laudantium voluptatibus voluptates minus necessitatibus culpa sequi dignissimos
+                eaque dolorem at? Repellat, consectetur!</p>
+        </div>
+        <div class="foot3">Site By Vishal</div>
+    </footer>
+</body>
+
+</html>
